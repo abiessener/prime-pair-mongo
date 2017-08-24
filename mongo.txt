@@ -45,4 +45,4 @@
 //  }).pretty();
 
 // this is the actual answer
-db.orders.find({"lineItems": { $elemMatch: { quantity: {$gt:8, $lt:14 }}}}).pretty()  
+db.orders.find({"lineItems": { $elemMatch: { quantity: {$gt:2, $lt:10 }}}}).pretty()  
